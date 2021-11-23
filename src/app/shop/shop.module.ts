@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { TshirtsComponent } from './tshirts/tshirts.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    TshirtsComponent
+  ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+  ],
+  exports: [TshirtsComponent]
 })
 export class ShopModule { }

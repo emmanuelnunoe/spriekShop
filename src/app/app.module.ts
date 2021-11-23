@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyOwnCustomMaterialModule } from 'src/app/my-own-custom-material/my-own-custom-material.module';
 import { LandingPageModule } from './landing-page/landing-page.module';
-
+import { ShopModule } from './shop/shop.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +14,7 @@ import { LandingPageModule } from './landing-page/landing-page.module';
     AppRoutingModule,
     MyOwnCustomMaterialModule,
     LandingPageModule,
+    ShopModule
   ],
   providers: [],
   bootstrap: [AppComponent],
