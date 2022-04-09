@@ -4,9 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\landing-page",
-    "\\src\\app\\landing-page\\main",
-    "\\src\\environments"
+    "\\src\\app\\landing-page\\toolbar",
+    "\\src\\app\\shop"
   ],
-  "SelectedNode": "\\src\\app\\app-routing.module.ts",
+  "SelectedNode": "\\src\\app\\shop\\shop.module.ts",
   "PreviewInSolutionExplorer": false
 }
